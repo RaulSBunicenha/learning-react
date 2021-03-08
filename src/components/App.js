@@ -1,9 +1,15 @@
 import React from 'react';
+import Post from './Post';
 
 export default class app extends React.Component {
     render () {
         return (
-            <h1>Hello World!</h1>
+            <div>
+                <h1>Hello World!</h1>
+                <Post title="Learning ReactJS with RocketSeat" />
+                <Post title="ReactJS is great" />
+                <Post />
+            </div>
         );
     }
 }
